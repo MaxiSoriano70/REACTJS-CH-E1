@@ -1,0 +1,140 @@
+:root{
+    --color1: #27304d;
+    --color2: #354573;
+    --color3: #c51142;
+    --color4: #e2205a;
+    --color5: #025951;
+    --color6: #007469;
+    --colorBlanco: #fff;
+    --fondo: #f2f6fc;
+}
+
+
+.veterinariaCarousel{
+    height: 250px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    filter: brightness(0.6);
+}
+
+.containerImg {
+    position: relative;
+}
+
+.textCarrusel {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 90%;
+    color: var(--colorBlanco);
+}
+
+.textCarrusel .tituloCarrusel {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btnCarrusel1 {
+    background-color: var(--color1);
+    color: var(--colorBlanco);
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+
+.btnCarrusel1:hover {
+    background-color: var(--color2);
+    color: var(--colorBlanco);
+}
+
+.btnCarrusel2 {
+    background-color: var(--color3);
+    color: var(--colorBlanco);
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+
+.btnCarrusel2:hover {
+    background-color: var(--color4);
+    color: var(--colorBlanco);
+}
+
+.btnCarrusel3 {
+    background-color: var(--color5);
+    color: var(--colorBlanco);
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+
+.btnCarrusel3:hover {
+    background-color: var(--color6);
+    color: var(--colorBlanco);
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .veterinariaCarousel{
+        height: 450px;
+    }
+
+    .textCarrusel {
+        width: 80%;
+    }
+
+    .textCarrusel .tituloCarrusel {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .btnCarrusel1 {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+
+    .btnCarrusel2 {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+
+    .btnCarrusel3 {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .veterinariaCarousel{
+        height: 600px;
+    }
+
+    .textCarrusel {
+        width: 70%;
+    }
+
+    .textCarrusel .tituloCarrusel {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .btnCarrusel1 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .btnCarrusel2 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .btnCarrusel3 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+}
