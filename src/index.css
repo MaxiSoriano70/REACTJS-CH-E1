@@ -1,0 +1,127 @@
+:root{
+  --color1: #27304d;
+  --color2: #354573;
+  --color3: #c51142;
+  --color4: #e2205a;
+  --color5: #025951;
+  --color6: #007469;
+  --colorBlanco: #fff;
+  --colorFondo: #f2f6fc;
+  --colorNegro: #000;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bgColorFondo {
+  background-color: var(--colorFondo) !important;
+}
+
+.bgColorPrincipal {
+  background-color: var(--color1) !important;
+}
+
+.bgColorOpuesto {
+  background-color: var(--color3) !important;
+}
+
+.bgDark{
+  background-color: #000 !important;
+}
+
+.btnPersonalized1 {
+  background-color: var(--color3) !important;
+  color: var(--colorBlanco) !important;
+  border: var(--color3) !important;
+}
+
+.btnPersonalized1:hover {
+  background-color: var(--color4) !important;
+  color: var(--colorBlanco) !important;
+}
+
+.btnPersonalized1:disabled {
+  background-color: #d3d3d3 !important;
+  color: #a9a9a9 !important;
+  cursor: not-allowed !important;
+}
+
+.btnPersonalized2 {
+  background-color: var(--color5) !important;
+  color: var(--colorBlanco) !important;
+  border: var(--color5) !important;
+}
+
+.btnPersonalized2:hover {
+  background-color: var(--color6) !important;
+  color: var(--colorBlanco) !important;
+}
+
+.btnPersonalized2:disabled {
+  background-color: #d3d3d3 !important;
+  color: #a9a9a9 !important;
+  cursor: not-allowed !important;
+}
+
+.btnPersonalized3 {
+  background-color: var(--color1) !important;
+  color: var(--colorBlanco) !important;
+  border: var(--color1) !important;
+}
+
+.btnPersonalized3:hover {
+  background-color: var(--color2) !important;
+  color: var(--colorBlanco) !important;
+}
+
+.btnPersonalized3:disabled {
+  background-color: #d3d3d3 !important;
+  color: #a9a9a9 !important;
+  cursor: not-allowed !important;
+}
+
+/*.btnPersonalized4 {
+  background-color: var(--color-1) !important;
+  color: var(--color-blanco) !important;
+  border: var(--color-1) !important;
+}
+
+.btnPersonalized4:hover {
+  background-color: var(--color-2) !important;
+  color: var(--color-blanco) !important;
+}
+
+.btnPersonalized4:disabled {
+  background-color: #d3d3d3 !important;
+  color: #a9a9a9 !important;
+  cursor: not-allowed !important;
+}*/
+
+.bgInput {
+  border: 1.8px solid var(--color1) !important;
+}
+
+.bgInput:focus {
+  border: 2px solid var(--color1) !important;
+  box-shadow: 0 0 0 0.2rem var(--color1) !important;
+}
+
+.modoLight{
+  background-color: var(--colorFondo);
+  color: var(--colorNegro);
+}
+
+.modoDark{
+  background-color: var(--colorNegro);
+  color: var(--colorBlanco);
+}
