@@ -1,0 +1,42 @@
+[
+    {
+        "image": "consultorio-veterinario.svg",
+        "title": "Consultorio Veterinario",
+        "description": "Espacio dedicado al cuidado de mascotas, ofreciendo consultas, diagnósticos y tratamientos veterinarios para su bienestar."
+    },
+    {
+        "image": "internacion-diurna.svg",
+        "title": "Internación Diurna",
+        "description": "Servicio de cuidado veterinario durante el día, con monitoreo y atención médica especializada para mascotas."
+    },
+    {
+        "image": "laboratorio.svg",
+        "title": "Laboratorio Propio",
+        "description": "Laboratorio veterinario interno para realizar análisis y diagnósticos precisos en el mismo consultorio."
+    },
+    {
+        "image": "radiografias.svg",
+        "title": "Radiografías y Ecografías",
+        "description": "Servicio de radiografías y ecografías para diagnósticos veterinarios rápidos y precisos."
+    },
+    {
+        "image": "cirugias.svg",
+        "title": "Cirugias",
+        "description": "Realización de cirugías veterinarias con equipos modernos y cuidados especializados para la recuperación de las mascotas."
+    },
+    {
+        "image": "colocacion-microchips.svg",
+        "title": "Colocación de Microchip",
+        "description": "Servicio de implantación de microchip para identificación segura y permanente de mascotas."
+    },
+    {
+        "image": "guardia-veterinaria.svg",
+        "title": "Guardia Veterinaria",
+        "description": "Atención veterinaria de urgencias disponible las 24 horas para casos imprevistos."
+    },
+    {
+        "image": "otras-especialidades.svg",
+        "title": "Otras Especialidades",
+        "description": "Consultas especializadas en diversas áreas veterinarias para el cuidado integral de las mascotas."
+    }
+]
